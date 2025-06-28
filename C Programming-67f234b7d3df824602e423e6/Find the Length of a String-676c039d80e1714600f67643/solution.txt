@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\n#include <string.h>\r\nint main()\r\n{\r\n    char str[100];\r\n    fgets(str, sizeof(str), stdin);\r\n\r\n    str[strcspn(str, \"\\n\")]='\\0';\r\n\r\n    int len = strlen(str);\r\n    printf(\"%d\", len);\r\n}","language":"c","time":"2025-06-28T12:59:09.488Z","isCorrect":true}]
