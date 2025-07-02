@@ -1,0 +1,1 @@
+[{"code":"#include <stdbool.h>\r\nint isPrime(int n)\r\n{\r\n    if (n <= 1)\r\n        return 0;\r\n\r\n    for (int i = 2; i * i <= n; i++)\r\n    {\r\n        if (n % i == 0)\r\n            return 0;\r\n    }\r\n    return 1;\r\n}","language":"c","time":"2025-07-02T04:38:02.190Z","isCorrect":true}]
